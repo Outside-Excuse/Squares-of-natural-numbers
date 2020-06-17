@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner (System.in);
+    
+    int number = scanner.nextInt();
+    
+    int squares = 0;
+    int squares2 = 0;
+    int show = 0;
+    do{
+     
+        squares = squares +=1;
+        squares2 = squares2 +=1;
+    show = (squares*squares2);
+ if (number >= show){
+    System.out.println(show);
+ }
+    }while (show <= number);
+       
+        // put your code here
+    }
+}
